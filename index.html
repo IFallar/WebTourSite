@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebTour: CALABARZON</title>
+
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+  </head>
+
+  <body>
+    <div id="title_bar">
+    	
+    	<h1 id="head_title">WEBTOUR: CALABARZON</h1>
+
+    </div>
+
+    <div id="main_menu">
+      <div id="main_nav_menu">
+        <a id="current_page" class="main_nav_menu_button" href="index.html"
+          >HOME</a
+        >
+        <a id="" class="main_nav_menu_button" href="destinations.html"
+          >DESTINATIONS</a
+        >
+        <a id="" class="main_nav_menu_button" href="events.html">EVENTS</a>
+        <a id="" class="main_nav_menu_button" href="experiences.html"
+          >EXPERIENCES</a
+        >
+        <a id="" class="main_nav_menu_button" href="about.html">ABOUT US</a>
+      </div>
+    </div>
+
+    <div id="section_1">
+      <div id="img_bg">
+        <img class="bg_pics" id="cavite_bg" src="pictures/Backgrounds/Tagaytay Picnic Grove.jpg"/>
+        <img class="bg_pics" id="laguna_bg" src="pictures/Backgrounds/Hulugan Falls.jpg"/>
+        <img class="bg_pics" id="batangas_bg" src="pictures/Backgrounds/Fortune Island.jpg"/>
+        <img class="bg_pics" id="rizal_bg" src="pictures/Backgrounds/Masungi Georeserve.jpg"/>
+        <img class="bg_pics" id="quezon_bg" src="pictures/Backgrounds/Villa Escudero.jpeg"/>
+      </div>
+
+      <div id="overlay"></div>
+
+      <div id="region_info_container">
+        <div id="default_info">
+          <p>
+            <span id="paragraph_title">CALABARZON</span><br />
+            CALABARZON is considered the second most populated and booming region
+            in the Philippines, after Metro Manila. It is consists of five famous
+            provinces named: Cavite, Laguna, Batangas, Rizal, and Quezon, and that
+            form is its name CALABARZON. These five provinces have tourist spots
+            like mountains, volcanoes, beaches, lakes, cultural heritage sites
+            dating back to the Spanish era, and many more. The region is a
+            well-known and favorite spot of travelers, locally or internationally.
+          </p>
+
+          <button id="explore_btn" type="button">PICK A REGION TO GET STARTED</button>
+        </div>
+
+        <div id="cavite_info">
+          <p>
+            <span id="paragraph_title">CAVITE</span><br />
+          </p>
+
+        </div>
+
+        
+        <div id="laguna_info">
+          <p>
+            <span id="paragraph_title">LAGUNA</span><br />
+          </p>
+
+        </div>
+
+        
+        <div id="batangas_info">
+          <p>
+            <span id="paragraph_title">BATANGAS</span><br />
+          </p>
+
+        </div>
+
+        
+        <div id="rizal_info">
+          <p>
+            <span id="paragraph_title">RIZAL</span><br />
+          </p>
+
+        </div>
+
+        
+        <div id="quezon_info">
+          <p>
+            <span id="paragraph_title">QUEZON</span><br />
+          </p>
+
+        </div>
+
+
+
+      </div>
+
+	 <div id="region_selector">
+        <!-- <button class="region_selector_btn" id="CAVITE">CAVITE</button>
+        <button class="region_selector_btn" id="LAGUNA">LAGUNA</button>
+        <button class="region_selector_btn" id="BATANGAS">BATANGAS</button>
+        <button class="region_selector_btn" id="RIZAL">RIZAL</button>
+        <button class="region_selector_btn" id="QUEZON">QUEZON</button> -->
+      </div> 
+
+      <div id="map_container">
+        <img id="bg_map" src="pictures/regions/calabarzon/Calabarzon Map.png" />
+        
+
+        <img
+          class="area_maps"
+          id="blank_map"
+          src="pictures/regions/calabarzon/Blank Map.png"
+          usemap="#mapcoords"
+        />
+
+        <map id="area_container" class="areas" name="mapcoords">
+          <area
+            class="regions"
+            id="cavite_poly"
+            alt=""
+            title="Cavite"
+            shape="poly"
+            coords="87,329,97,336,96,323,120,316,143,304,163,282,174,270,189,250,184,264,202,260,214,287,214,307,234,308,226,326,229,340,218,358,223,368,197,380,169,388,159,376,150,376,141,364,131,367,120,351,119,344,106,337,100,344,87,336"
+          />
+
+          <img
+            class="area_maps"
+            id="cavite_map"
+            src="pictures/regions/calabarzon/Cavite_clr.png"
+          />
+
+          <area
+            class="regions"
+            id="laguna_poly"
+            alt=""
+            title="Laguna"
+            shape="poly"
+            coords="291,421,338,389,354,386,368,360,394,329,392,289,372,283,349,232,330,243,322,253,321,268,324,291,324,299,332,299,334,288,347,293,347,302,337,301,334,308,324,310,296,345,273,346,263,347,266,335,226,290,216,298,216,308,233,308,227,328,231,337,218,357,226,365,239,358,268,367,280,406,286,408"
+          />
+
+          <img
+            class="area_maps"
+            id="laguna_map"
+            src="pictures/regions/calabarzon/Laguna_clr.png"
+          />
+
+          <area
+            class="regions"
+            id="batangas_poly"
+            alt=""
+            title="Batangas"
+            shape="poly"
+            coords="87,336,100,344,107,336,118,345,113,354,123,355,129,368,140,364,149,376,157,374,169,389,241,359,268,368,283,411,288,423,279,434,289,441,291,448,318,448,343,463,338,470,341,494,349,498,333,511,321,508,297,526,286,528,276,521,268,519,262,513,232,521,221,516,227,491,224,478,204,473,183,502,174,492,190,476,182,461,186,453,174,439,132,428,127,436,134,445,129,455,111,450,119,466,114,474,96,452,100,428,94,416,103,410,96,399,100,393,100,375,84,368,84,361,92,362"
+          />
+
+          <img
+            class="area_maps"
+            id="batangas_map"
+            src="pictures/regions/calabarzon/Batangas_clr.png"
+          />
+
+          <area
+            class="regions"
+            id="rizal_poly"
+            alt=""
+            title="Rizal"
+            shape="poly"
+            coords="311,141,247,168,250,174,244,199,250,206,251,213,243,213,241,246,249,246,261,250,274,274,276,294,280,318,287,312,287,303,280,266,287,252,300,263,307,267,310,279,300,307,304,319,322,302,319,290,319,258,327,242,342,232,348,230,312,179"
+          />
+
+          <img
+            class="area_maps"
+            id="rizal_map"
+            src="pictures/regions/calabarzon/Rizal_clr.png"
+          />
+
+          <area
+            class="regions"
+            id="quezon_poly"
+            alt=""
+            title="Quezon"
+            shape="poly"
+            coords="311,172,309,98,332,64,325,58,335,51,339,34,352,41,359,78,370,93,383,132,389,142,392,156,428,191,424,198,415,195,394,206,405,283,426,305,426,323,435,326,438,342,428,352,439,371,462,383,483,409,532,429,575,435,572,424,559,413,504,379,484,352,476,348,484,334,514,359,532,372,551,383,563,399,566,409,574,413,593,419,590,400,566,383,553,360,561,355,571,346,575,350,581,332,591,333,586,369,595,362,601,369,601,383,605,386,619,388,628,375,640,364,742,404,670,424,664,431,636,431,660,460,662,479,664,489,651,492,655,506,666,528,696,552,692,563,702,579,711,602,710,628,716,635,715,646,690,665,674,667,650,638,657,611,647,593,637,578,627,571,618,552,601,544,599,533,590,531,581,534,568,528,560,519,527,471,518,477,496,464,493,453,475,451,465,437,447,434,443,443,428,438,428,422,430,416,419,417,415,429,393,437,385,438,346,459,342,463,316,444,295,444,279,430,333,387,352,383,391,324,391,286,369,279"
+          />
+
+          <img
+            class="area_maps"
+            id="quezon_map"
+            src="pictures/regions/calabarzon/Quezon_clr.png"
+          />
+
+          <area
+            class="regions"
+            id="quezon_poly_2"
+            alt=""
+            title="Quezon"
+            shape="poly"
+            coords="443,120,456,121,486,188,474,185,474,199,479,212,490,209,502,206,512,191,510,156,507,143,528,150,536,159,562,173,572,182,581,185,594,190,596,199,618,199,636,193,623,178,596,190,582,163,566,158,569,145,532,142,509,130,509,106,519,111,519,90,501,85,483,81,469,82,457,83,446,92,443,108"
+          />
+
+          <img
+            class="area_maps"
+            id="quezon_map"
+            src="pictures/regions/calabarzon/Quezon_clr.png"
+          />
+        </map>
+      </div>
+    </div>
+
+    <div id="ni_footer">
+      <div id="ni_footer_container">
+        <div id="ni_footer_left">
+          <img
+            src="pictures/WebTour Logo.png"
+            alt="Logo Here"
+          />
+          <h1>WEBTOUR: CALABARZON</h1>
+        </div>
+
+        <div id="ni_footer_right">
+          <h2>ABOUT</h2>
+
+          <a class="footer_a" href=""><p class="ni_footer_container_p">News</p></a>
+          <a class="footer_a" href=""><p class="ni_footer_container_p">About Us</p></a>
+          <a class="footer_a" href=""><p class="ni_footer_container_p">Support</p></a>
+        </div>
+
+        <div id="ni_footer_center">
+          <h2>LINKS</h2>
+          <a href=""><p class="ni_footer_container_p">Overview</p></a>
+          <a href=""><p class="ni_footer_container_p">Repository</p></a>
+        </div>
+
+        <div id="ni_footer_contacts">
+          <h2>SOCIAL MEDIA</h2>
+          <div id="media_row">
+            <a href=""><img src="pictures/Social_Icons/Facebook.png" /></a>
+            <a href=""><img src="pictures/Social_Icons/Twitter.png" /></a>
+            <a href=""><img src="pictures/Social_Icons/Git.png" /></a>
+
+            <a href=""><p class="media_row_p">Terms of Use</p></a>
+            <a href=""><p class="media_row_p">Customer Support</p></a>
+            <a href=""><p class="media_row_p">FAQ</p></a>
+          </div>
+        </div>
+
+        <div id="rights">©2022 WEBTOUR All Rights Reserved</div>
+      </div>
+    </div>
+
+    <script src="js/homepage.js"></script>
+
+  </body>
+</html>
