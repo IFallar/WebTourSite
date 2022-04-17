@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Regular.otf);
+    font-family: RoobertReg;
+  }
+  
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Light.otf);
+    font-family: RoobertLight;
+  }
+
+#main_body{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+    #top_image{
+        width: 90%;
+        height: 500px;
+
+        background-color: rgb(32, 17, 17);
+        margin: auto;
+
+        position: relative;
+    }
+
+        #section_title{
+            font-size: 50pt;
+            color: white;
+
+            font-family: Arial;
+
+            padding-top: 200px;
+            padding-left: 30px;
+
+            position: absolute;
+
+            
+        }
+
+        #top_image_actual{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+
+            position: absolute;
+        }
+
+    #lower_text{
+        width: 90%;
+        height: 150px;
+
+        background-color: whitesmoke;
+        margin: auto;
+
+    }    
+
+        #lower_text_actual{
+            font-size: 15pt;
+            font-family: RoobertReg;
+            width: 90%;
+
+            padding-left:5%;
+            padding-top: 4%;
+
+            text-align: center;
+        }
+
+    #featured{
+        width: 90%;
+        height: 800px;
+
+        background-color: rgb(9, 11, 44);
+        margin: auto;
+
+    }
+
+    #featured_body{
+        width: 90%;
+        height: 740px;
+        margin: auto;
+
+        background-color: rgb(9, 11, 44);
+    }
+
+    .featured_column{
+        height: 95%;
+        background-color: rgb(9, 11, 44);
+        
+    }
+
+        #column1{
+            width: 50%;
+            float: left;
+            
+        }
+
+        #column2{
+            width: 50%;
+            float: right;
+           
+        }
+
+        .feature_title{
+            border-left: #ffc629 solid 5px;
+            margin-top: 5px;
+
+            padding-left: 2%;
+            width: 90%;
+
+            font-size: 15pt;
+            font-family: RoobertReg;
+            color: white;
+        }
+
+        .feature_detail{
+            color: white;
+            padding-top: 5px;
+            width: 100%;
+            height: 56px;
+            
+            font-family: RoobertLight;
+            font-size: 11pt;
+
+            text-overflow: ellipsis;
+            overflow: hidden; 
+
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+
+
+        }
+
+            .big_box{
+
+                width: 96%;
+                height: 48.5%;
+                margin-bottom: 4%;
+                margin-top: 2%;
+
+                background-color: rgb(9, 11, 44);
+            }
+
+            .big_box:hover{
+                cursor: pointer;
+            }
+
+                .img_container{
+                    height: 70%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+
+                .img_container_small{
+                    height: 75%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+
+                .feature_image{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: transform .5s ease;
+                }
+
+                .feature_image:hover{
+                    cursor: pointer;
+                    transform: scale(1.05);
+                }
+
+            .small_box{
+
+                width: 46%;
+                height: 220.74px;
+                margin-bottom: 2%;
+                margin-top: 2%;
+                margin-right: 4%;
+
+                background-color: rgb(9, 11, 44);
+                float: left;
+            }
+
+            .small_box:hover{
+                cursor: pointer;
+            }
+
+    .vertical_divider{
+        width: 90%;
+        height: 60px;
+        background-color: whitesmoke;
+
+        margin: auto;
+        position: relative;
+        }
+
+        #featured_vertical_divider{
+            height: 60px;
+            width: 100%;
+            background-color: transparent;
+        }
+
+            .divider_text{
+                font-size: 15pt;
+                color: rgb(48, 48, 48);
+                background-color: whitesmoke;
+
+                padding-top: 18px;
+                padding-bottom: 17px;
+                padding-right: 15px;
+                left: 20px;
+
+                position: absolute;
+                
+                font-style: italic;
+                font-family: RoobertLight;
+                float: left;
+            }
+
+            #featured_divider_text{
+                color: rgb(255, 255, 255);
+                background-color: rgb(9, 11, 44);
+                left: 90px;
+
+                position: absolute;
+            }
+
+            .divider_line{
+                margin-top: 31px;
+                margin-left: 2%;
+
+                height: 1px;
+                
+                width: 85%;
+
+                background-color: rgb(48, 48, 48);
+                float: left;
+            }
+
+            #featured_divider_line{
+                background-color: rgb(255, 255, 255);
+            }
+
+            .divider_button{
+                text-align: center;
+                
+                border: 1px solid black;
+                padding: 7px;
+                width: 6%;
+                margin-left: 1.5%;
+                margin-top: 13px;
+
+                font-size: 12pt;
+                font-family: RoobertLight;
+                
+                background-color: white;
+                color:rgb(48, 48, 48);
+
+                float: left;
+            }
+
+            .divider_button:hover{
+                background-color: #d3b04d;
+                color:white;
+            }
+
+    .experiences_row{
+        width: 90%;
+        height: 240px;
+        background-color: whitesmoke;
+        margin: auto;
+    }
+
+    .experiences_inner_container{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+
+        .small_box_lower{
+
+            width: 250px;
+            height: 220.74px;
+            margin-right: 2.12%;
+            margin-top: 1%;
+
+            background-color: transparent;
+            float: left;
+
+        }
+
+        .small_box_lower p{
+            color: black;
+        }
+
+        
