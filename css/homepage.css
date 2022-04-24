@@ -180,7 +180,7 @@ button, input[type="submit"], input[type="reset"] {
 		  justify-content: center;
 		}
 
-		#explore_btn {
+		.explore_btn {
 		  width: 200px;
 		  color: whitesmoke;
 		  background: #002043;
@@ -194,9 +194,10 @@ button, input[type="submit"], input[type="reset"] {
 
 		  padding-top: 10px;
 		  padding-bottom: 10px;
+		  border: 2px solid white;
 		}
 
-			#explore_btn:hover {
+			.explore_btn:hover {
 			cursor: pointer;
 			background: #d3b04d;
 			letter-spacing: 3px;
@@ -294,7 +295,7 @@ button, input[type="submit"], input[type="reset"] {
 
   z-index: 2;
 
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 		.area_maps {

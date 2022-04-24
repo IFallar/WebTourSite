@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Regular.otf);
+    font-family: RoobertReg;
+  }
+  
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Light.otf);
+    font-family: RoobertLight;
+  }
+
+#main_body{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+
+.top{
+    width: 90%;
+
+    margin: auto;
+    overflow: hidden;
+    }
+
+    .top h1{
+        font-size: 50pt;
+        color: #19171d;
+
+        font-family: Arial;
+        padding-top: 50px;
+
+    }
+    
+
+    .undercut{
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+        .about_btn{
+            width: 50%;
+            padding-bottom: 5px;
+            padding-top: 10px;
+
+            border-style: none;
+
+            float: left;
+
+            font-family: RoobertLight;
+            font-size: 12pt;
+    
+            color: #19171d;
+
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+            #about_webtour{
+                background-color: rgb(9, 11, 44);
+                border-bottom: 5px transparent solid;
+                color: whitesmoke;
+
+            }
+
+                #about_webtour:hover{
+                    border-bottom: 5px rgb(9, 11, 44) solid;
+                    cursor: pointer;
+                }
+
+            #who{
+                background-color: whitesmoke;
+                border-bottom: 5px transparent solid;
+            }
+
+                #who:hover{
+                    border-bottom: 5px rgb(9, 11, 44) solid;
+                    cursor: pointer;
+                }
+
+#overdiv{
+    width: 200%;
+    overflow: hidden;
+
+    float: left;
+
+    margin-left: 0%;
+    transition-duration: 500ms;
+
+}
+
+    .holder{
+        width: 50%;
+        float: left;
+    }
+
+    .text_cont{
+        width: 80%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+        font-family: RoobertLight;
+        font-size: 15pt;
+
+        color: #19171d;
+
+        padding-bottom: 100px;
+        float: left;
+    }
+        
+        .about_img{
+            padding-top: 30px;
+            float: right;
+            width: 18%;
+        }
+
+        .about_img img{
+            object-fit: cover;
+        }
+
+    .member_row{
+        width: 100%;
+        height: 500px;
+
+        margin-bottom: 100px;
+    }
+
+        .member_card{
+            width: 28%;
+            height: 100%;
+
+            background-color: whitesmoke;
+            margin-left: 4%;
+
+            float: left;
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+        }
+
+            .img_holder{
+                height: 60%;
+                width: 100%;
+                background-color: #19171d;
+                position: relative;
+            }
+
+                .mem_img{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    display: block;
+                    opacity: 1;
+                    z-index: 1;
+                }
+
+                    .mem_img:hover{
+                        opacity: 0;
+                        cursor: pointer;
+                    }
+
+                .mem_img_alt{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+            .info_holder{
+                width: 100%;
+                height: 40%;
+            }
+
+                .name{
+                    padding-top: 10px;
+                    padding-bottom: 5px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #19171d;
+                }
+
+                .underline{
+                    width: 20%;
+                    height: 4px;
+                    background-color: rgb(9, 11, 44);
+
+                    margin: auto;
+                    margin-bottom: 5px;
+                }
+
+                .mem_info{
+                    padding-top: 10px;
+                    width: 90%;
+                    margin-left: 5%;
+
+                    font-family: RoobertLight;
+                }
+
