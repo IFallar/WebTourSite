@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destinations</title>
 
-    <link rel="stylesheet" type="text/css" href="css/header_footer.css" />    <!-- Do not touch this -->
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css" />
+    <!-- Do not touch this -->
     <link rel="stylesheet" type="text/css" href="css/destinations.css" />
-</head>
+    <!-- <link rel="stylesheet" href="./modal_style.css" /> -->
+  </head>
 
-<body>
-
+  <body>
     <div id="title_bar">
-    	
-    	<h1 id="head_title">WEBTOUR: CALABARZON</h1>
-
+      <h1 id="head_title">WEBTOUR: CALABARZON</h1>
     </div>
 
     <div id="main_menu">
@@ -23,11 +22,13 @@
         <a id="current_page" class="main_nav_menu_button" href="index.html"
           >HOME</a
         >
-        <a id="" class="main_nav_menu_button" href="provinces.html">PROVINCES</a>
+        <a id="" class="main_nav_menu_button" href="provinces.html"
+          >PROVINCES</a
+        >
         <a id="" class="main_nav_menu_button" href="destinations.html"
           >DESTINATIONS</a
         >
-        
+
         <a id="" class="main_nav_menu_button" href="experiences.html"
           >EXPERIENCES</a
         >
@@ -36,307 +37,342 @@
     </div>
 
     <div id="main_body">
-      
-        <!-- Wag niyo na baguhin yung Header and footerm just design the body.-->
-        <!-- As for the css, just make a new css file for styling the body-->
+      <!-- Wag niyo na baguhin yung Header and footerm just design the body.-->
+      <!-- As for the css, just make a new css file for styling the body-->
 
-        <div id="top_image">
+      <div id="top_image">
+        <img
+          id="top_image_actual"
+          src="pictures/Backgrounds/Tagaytay.png"
+          alt=""
+        />
+        <h1 id="section_title">DESTINATIONS</h1>
+      </div>
 
-            <img id="top_image_actual" src="pictures/Backgrounds/Tagaytay.png" alt="">
-            <h1 id="section_title">DESTINATIONS</h1>
+      <div class="vertical_divider">
+        <p class="divider_text">INTERESTING PLACES</p>
+        <div class="divider_line"></div>
+        <a href="" class="divider_button">MORE</a>
+      </div>
 
-        </div>
-
-
-            <div class="vertical_divider">
-
-                <p class="divider_text" >INTERESTING PLACES</p>
-                <div class="divider_line"></div>
-                <a href="" class="divider_button">MORE</a>
-
+      <div class="destinations_set">
+        <div class="set_inner">
+          <div class="section_column">
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Tagaytay.png"
+                alt="Tagaytay"
+                data-original="Tagaytay.png"
+              />
+              <p id="" class="destinations_name">Tagaytay</p>
             </div>
 
-        <div class="destinations_set">
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Kamay ni Hesus.jpg"
+                alt="The Kamay Ni Hesus Shrine (also known as the Kamay ni Hesus Healing Church) is a prominent religious site in Quezon. The church and its surrounding structures take up a total of 5 hectares of land. Locals consider Kamay ni Hesus to be a sacred and spiritual site. For many, it has become a pilgrimage site where devotees can pray for healing or confess their sins. Even if you are not a Catholic, you may find the shrine compound interesting to visit. Aside from the church, the property’s expansive grounds are lush, peaceful, and relaxing.
+                "
+                data-original="Kamay ni Hesus.jpg"
+              />
+              <p id="" class="destinations_name">Kamay ni Hesus</p>
+            </div>
+          </div>
 
-            <div class="set_inner">
+          <div class="section_column">
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Aguinaldo Shrine.jpg"
+                alt="Emilio Aguinaldo Shrine and Museum, the site of the first unfurling of the Philippine flag, is one of Cavite's most popular historical tourist attractions. Former President Emilio Aguinaldo declared Philippine independence from Spanish colonization on the balcony of his home in Kawit, Cavite, on June 12, 1898. If you want to resemble the history of the Philippines like the day which the Philippines had a freedom, then you might want to visit Kawit."
+                data-original="Aguinaldo Shrine.jpg"
+              />
 
-                <div class="section_column">
-                    <a href="">
-                        <div class="sec_2s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Tagaytay.png" alt="">
-                            <p id="" class="destinations_name">Tagaytay</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_2s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Kamay ni Hesus.jpg" alt="">
-                            <p id="" class="destinations_name">Kamay ni Hesus</p>
-
-                        </div>                        
-                    </a>
-
-                </div>
-
-                <div class="section_column">
-                    
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Aguinaldo Shrine.jpg" alt="">
-                            <p id="" class="destinations_name">Aguinaldo Shrine</p>
-                            
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Enchanted Kingdom.jpg" alt="">
-                            <p id="" class="destinations_name">Enchanted Kingdom</p>
-                            
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Rizal Shrine.jpg" alt="">
-                            <p id="" class="destinations_name">Rizal Shrine</p>
-
-                        </div>                        
-                    </a>
-
-
-                </div>
-
-                <div class="section_column">
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Corregidor Island.jpg" alt="">
-                            <p id="" class="destinations_name">Battery Way</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Casa Santa Museum.jpeg" alt="">
-                            <p id="" class="destinations_name">Casa Santa Museum</p>
-                            
-                        </div>                        
-                    </a>
-
-                </div>
-
-                <div class="section_column">
-                    
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Taal Heritage.jpg" alt="">
-                            <p id="" class="destinations_name">Taal Heritage Town</p>
-                            
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Malinta Tunnel.jpg" alt="">
-                            <p id="" class="destinations_name">Malinta Tunnel</p>
-                            
-                        </div>
-
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Regina Rica.jpg" alt="">
-                            <p id="" class="destinations_name">Regina Rica</p>
-
-                        </div>
-                    </a>
-
-                </div>
-    
+              <p id="" class="destinations_name">Aguinaldo Shrine</p>
             </div>
 
-        </div>
-
-        <div class="vertical_divider">
-
-            <p class="divider_text" >NATURE ADVENTURE</p>
-            <div id="ln2" class="divider_line"></div>
-            <a href="" class="divider_button">MORE</a>
-
-        </div>
-
-        <div class="destinations_set">
-
-            <div class="set_inner">
-
-                <div class="section_column">
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Mount Pico De Loro.jpg" alt="">
-                            <p id="" class="destinations_name">Mount Pico De Loro</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Masungi Georeserve Alt.jpg" alt="">
-                            <p id="" class="destinations_name">Masungi Georeserve</p>
-                            
-                        </div>                        
-                    </a>
-
-                </div>
-
-                <div class="section_column">
-                    
-                    <a href="">
-                        <div class="sec_3s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Avilon Zoo.jpg" alt="">
-                            <p id="" class="destinations_name">Avilon Zoo</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Pamitinan Cave.jpg" alt="">
-                            <p id="" class="destinations_name">Pamitinan Cave</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-                            
-                            <img class="destinations_image" src="pictures/Backgrounds/Anilao Diving Spot.jpg" alt="">
-                            <p id="" class="destinations_name">Anilao Diving Spot</p>
-
-                        </div>                        
-                    </a>
-
-
-                </div>
-
-                <div class="section_column">
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Mount Daraitan and Tinpak River.jpg" alt="">
-                            <p id="" class="destinations_name">Mount Daraitan and Tinipak River</p>
-
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_2s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Pagsanjan Falls.jpg" alt="">
-                            <p id="" class="destinations_name">Pagsanjan Falls</p>
-                            
-                        </div>                        
-                    </a>
-
-                </div>
-
-                <div class="section_column">
-                    
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Carilaya Lake.jpg" alt="">
-                            <p id="" class="destinations_name">Carilaya Lake</p>
-                            
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Cagbalete Island.jpg" alt="">
-                            <p id="" class="destinations_name">Cagbalete Island</p>
-                            
-                        </div>                        
-                    </a>
-
-                    <a href="">
-                        <div class="sec_3s">
-
-                            <img class="destinations_image" src="pictures/Backgrounds/Hinulugang Taktak.jpeg" alt="">
-                            <p id="" class="destinations_name">Hinulugang Taktak</p>
-                            
-                        </div>                        
-                    </a>
-
-
-                </div>
-    
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Enchanted Kingdom.jpg"
+                alt="Enchanted Kingdom"
+                data-original="Enchanted Kingdom.jpg"
+              />
+              <p id="" class="destinations_name">Enchanted Kingdom</p>
             </div>
 
-        </div>
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Rizal Shrine.jpg"
+                alt="Rizal Shrine"
+                data-original="Rizal Shrine.jpg"
+              />
+              <p id="" class="destinations_name">Rizal Shrine</p>
+            </div>
+          </div>
 
+          <div class="section_column">
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Corregidor Island.jpg"
+                alt="Battery Way"
+                data-original="Corregidor Island.jpg"
+              />
+              <p id="" class="destinations_name">Battery Way</p>
+            </div>
+
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Casa Santa Museum.jpeg"
+                alt="Casa Santa Museum"
+                data-original="Casa Santa Museum.jpeg"
+              />
+              <p id="" class="destinations_name">Casa Santa Museum</p>
+            </div>
+          </div>
+
+          <div class="section_column">
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Taal Heritage.jpg"
+                alt="Taal Heritage"
+                data-original="Taal Heritage.jpg"
+              />
+              <p id="" class="destinations_name">Taal Heritage Town</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Malinta Tunnel.jpg"
+                alt="Malinta Tunnel"
+                data-original="Malinta Tunnel.jpg"
+              />
+              <p id="" class="destinations_name">Malinta Tunnel</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Regina Rica.jpg"
+                alt="Regina Rica"
+                data-original="Regina Rica.jpg"
+              />
+              <p id="" class="destinations_name">Regina Rica</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NATURE ADVENTURE -->
+
+      <div class="vertical_divider">
+        <p class="divider_text">NATURE ADVENTURE</p>
+        <div id="ln2" class="divider_line"></div>
+        <a href="" class="divider_button">MORE</a>
+      </div>
+
+      <div class="destinations_set">
+        <div class="set_inner">
+          <div class="section_column">
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Mount Pico De Loro.jpg"
+                alt="Mt. Pico de Loro, also known as Mt. Palay Palay,
+                towers majestically between Maragondon, Cavite,
+                and Nasugbu, Batangas. It is a dormant volcano
+                rising over 664 meters above sea level. It is
+                regarded as one of the best hiking destinations in
+                the Philippines. The name Pico de Loro refers to
+                a parrot's beak that resembles the mountain's
+                summit. Its stunning summit provides an
+                unobstructed view of the neighboring provinces of
+                Laguna and Batangas. If you are into hiking then
+                this destination is highly recommended for you."
+                data-original="Mount Pico De Loro.jpg"
+              />
+              <p id="" class="destinations_name">Mount Pico De Loro</p>
+            </div>
+
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Masungi Georeserve Alt.jpg"
+                alt="Masungi Georeserve"
+                data-original="Masungi Georeserve Alt.jpg"
+              />
+              <p id="" class="destinations_name">Masungi Georeserve</p>
+            </div>
+          </div>
+
+          <div class="section_column">
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Avilon Zoo.jpg"
+                alt="Avilon Zoo"
+                data-original="Avilon Zoo.jpg"
+              />
+              <p id="" class="destinations_name">Avilon Zoo</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Pamitinan Cave.jpg"
+                alt="Pamitinan Cave"
+                data-original="Pamitinan Cave.jpg"
+              />
+              <p id="" class="destinations_name">Pamitinan Cave</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Anilao Diving Spot.jpg"
+                alt="If you’re looking for adventure under the water,
+                then Anilao is a great place for you. It has many
+                diving spots that can suit your thirst for diving. It is
+                one of the most famous diving spots here in the
+                Philippines because of its colorful coral reefs and
+                fishers that you thought you could just imagine.
+                Here in Anilao, those imaginations of yours can be
+                real that can be seen underwater. Some Anilao
+                Batangas tourist spots perfect for diving are Eagle
+                Point, Bahura, Secret Garden, Twin Rocks, and Ligpo
+                Cave."
+                
+                data-original="Anilao Diving Spot.jpg"
+              />
+              <p id="" class="destinations_name">Anilao Diving Spot</p>
+            </div>
+          </div>
+
+          <div class="section_column">
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Mount Daraitan and Tinpak River.jpg"
+                alt="This mountain is part of the Sierra Madre mountain range, and with a difficulty level of 4 out of 9, it is an excellent choice for first-time climbers. The designated hiking trail is 600 meters long and will take you through the abundant forest of the mountain. On the way up, travelers will encounter some jagged limestones, but there are bamboo railings to hold onto. Your guide will also show you how to navigate the areas. The summit is 739 meters above sea level and provides a spectacular view of the Tinipak River and other Sierra Madre mountains. Travelers can also camp here to view the sunset and sunrise from the mountain top.
+                "
+                data-original="Mount Daraitan and Tinpak River.jpg"
+              />
+              <p id="" class="destinations_name">
+                Mount Daraitan and Tinipak River
+              </p>
+            </div>
+
+            <div class="sec_2s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Pagsanjan Falls.jpg"
+                alt="Magdapio Falls was the original name for Pagsanjan Falls or Cavinti Falls. After an American missionary discovered this three-drop waterfall in 1902, it became one of the earliest attractions. He named it Pagsanjan Falls, which comes from the Filipino word Pinagsangahan, which means “where it branches.”  It is one of the most famous waterfalls in the Philippines and near Manila and you might want to visit this one.
+                "
+                data-original="Pagsanjan Falls.jpg"
+              />
+              <p id="" class="destinations_name">Pagsanjan Falls</p>
+            </div>
+          </div>
+
+          <div class="section_column">
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Carilaya Lake.jpg"
+                alt="Carilaya Lake"
+                data-original="Carilaya Lake.jpg"
+              />
+              <p id="" class="destinations_name">Carilaya Lake</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Cagbalete Island.jpg"
+                alt="Cagbalete Island"
+                data-original="Cagbalete Island.jpg"
+              />
+              <p id="" class="destinations_name">Cagbalete Island</p>
+            </div>
+
+            <div class="sec_3s">
+              <img
+                class="destinations_image"
+                src="pictures/Backgrounds/Hinulugang Taktak.jpeg"
+                alt="Hinulugang Taktak"
+                data-original="Hinulugang Taktak.jpeg"
+              />
+              <p id="" class="destinations_name">Hinulugang Taktak</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="ni_footer">
-        <div id="ni_footer_container">
-          <div id="ni_footer_left">
-            <img
-              src="pictures/WebTour Logo.png"
-              alt="Logo Here"
-            />
-            <h1>WEBTOUR: CALABARZON</h1>
-          </div>
-  
-          <div id="ni_footer_right">
-            <h2>ABOUT</h2>
-  
-            <a href=""><p class="ni_footer_container_p">News</p></a>
-            <a href=""><p class="ni_footer_container_p">About Us</p></a>
-            <a href=""><p class="ni_footer_container_p">Support</p></a>
-          </div>
-  
-          <div id="ni_footer_center">
-            <h2>LINKS</h2>
-            <a href=""><p class="ni_footer_container_p">Overview</p></a>
-            <a href=""><p class="ni_footer_container_p">Repository</p></a>
-          </div>
-  
-          <div id="ni_footer_contacts">
-            <h2>SOCIAL MEDIA</h2>
-            <div id="media_row">
-              <a href=""><img src="pictures/Social_Icons/Facebook.png" /></a>
-              <a href=""><img src="pictures/Social_Icons/Twitter.png" /></a>
-              <a href=""><img src="pictures/Social_Icons/Git.png" /></a>
-  
-              <a href=""><p class="media_row_p">Terms of Use</p></a>
-              <a href=""><p class="media_row_p">Customer Support</p></a>
-              <a href=""><p class="media_row_p">FAQ</p></a>
-            </div>
-          </div>
-  
-          <div id="rights">©2022 WEBTOUR All Rights Reserved</div>
+      <div id="ni_footer_container">
+        <div id="ni_footer_left">
+          <img src="pictures/WebTour Logo.png" alt="Logo Here" />
+          <h1>WEBTOUR: CALABARZON</h1>
         </div>
+
+        <div id="ni_footer_right">
+          <h2>ABOUT</h2>
+
+          <a href=""><p class="ni_footer_container_p">News</p></a>
+          <a href=""><p class="ni_footer_container_p">About Us</p></a>
+          <a href=""><p class="ni_footer_container_p">Support</p></a>
+        </div>
+
+        <div id="ni_footer_center">
+          <h2>LINKS</h2>
+          <a href=""><p class="ni_footer_container_p">Overview</p></a>
+          <a href=""><p class="ni_footer_container_p">Repository</p></a>
+        </div>
+
+        <div id="ni_footer_contacts">
+          <h2>SOCIAL MEDIA</h2>
+          <div id="media_row">
+            <a href=""><img src="pictures/Social_Icons/Facebook.png" /></a>
+            <a href=""><img src="pictures/Social_Icons/Twitter.png" /></a>
+            <a href=""><img src="pictures/Social_Icons/Git.png" /></a>
+
+            <a href=""><p class="media_row_p">Terms of Use</p></a>
+            <a href=""><p class="media_row_p">Customer Support</p></a>
+            <a href=""><p class="media_row_p">FAQ</p></a>
+          </div>
+        </div>
+
+        <div id="rights">©2022 WEBTOUR All Rights Reserved</div>
       </div>
+    </div>
+
+    <!-- modal for destinations images -->
     
-</body>
+    <div class="modal">
+
+      <div class="modal_inner">
+
+        <div class="modal_parts">
+          <img src="" alt="" class="full-img" />
+        </div>
+
+        <div class="modal_parts">
+            <p class="caption"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/modal.js"></script>
+
+  </body>
+
 </html>

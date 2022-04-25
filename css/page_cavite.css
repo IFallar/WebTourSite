@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Regular.otf);
+    font-family: RoobertReg;
+  }
+  
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Light.otf);
+    font-family: RoobertLight;
+  }
+
+#main_body{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+    #top_image{
+        width: 90%;
+        height: 500px;
+
+        background-color: rgb(32, 17, 17);
+        margin: auto;
+
+        position: relative;
+    }
+
+        .section_class{
+            font-size: 25pt;
+            color: white;
+
+            font-family: RoobertReg;
+            font-weight: lighter;
+            font-style: italic;
+
+            padding-top: 170px;
+            padding-left: 35px;
+
+            position: absolute;
+        }
+
+        #section_title{
+            font-size: 60pt;
+            color: white;
+
+            font-family: Arial;
+
+            padding-top: 200px;
+            padding-left: 30px;
+
+            position: absolute;
+        }
+
+        #top_image_actual{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+
+            position: absolute;
+        }
+
+    #lower_text{
+        width: 90%;
+        height: max-content;
+        padding-top: 20px;
+
+        background-color: whitesmoke;
+        margin: auto;
+
+    }    
+
+        .gen_info{
+            width: 60%;
+            padding-right: 40%;
+            float: left;
+            background-color: whitesmoke;
+        }
+
+            .overline{
+                width: 10%;
+                margin-left: 5%;
+
+                height: 5px;
+                background-color: rgb(9, 11, 44);
+            }
+
+            .gen_info h1{
+                font-style: italic;
+                font-family: RoobertReg;
+                font-size: 20pt;
+
+                
+                padding-left: 5%;
+                padding-top: 2%;
+
+                color: #19171d;
+            }
+
+            .gen_info_actual{
+                font-family: RoobertLight;
+                font-size: 13pt;
+
+                padding-left: 5%;
+                padding-top: 5%;
+                padding-bottom: 100px;
+
+                color: black;
+            }
+
+
+.map_holder{
+    width: 90%;
+    height: 600px;
+
+    margin: auto;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+    .map_span{
+        width: 100%;
+        height: 100%;
+    }
+
+    #mapbar{
+        width: 5%;
+        height: 100%;
+        float: left;
+        background-color: #19171d;
+        transition-duration: 500ms;
+    }
+
+    #mapbar:hover{
+        cursor: pointer;
+    }
+
+    #map{
+        transition-duration: 500ms;
+        position:relative;
+        text-align:right;
+        height:600px;
+        width: 95%;
+        float: left;
+    }
+
+   .gmap_canvas {
+       overflow:hidden;
+       background:none!important;
+       height:600px;
+       width:100%;
+    }
+
+.bottom_content{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: auto;
+    
+
+}
+
+    .vertical_divider{
+        padding-top: 50px;
+        width: 90%;
+        height: 60px;
+        background-color: rgb(9, 11, 44);
+
+        margin: auto;
+        position: relative;
+        }
+
+        #featured_vertical_divider{
+            height: 60px;
+            width: 90%;
+            background-color: rgb(9, 11, 44);
+        }
+
+            .divider_text{
+                font-size: 15pt;
+                color: whitesmoke;
+                background-color: rgb(9, 11, 44);;
+
+                padding-top: 18px;
+                padding-bottom: 17px;
+                padding-right: 15px;
+                left: 20px;
+
+                position: absolute;
+                
+                font-style: italic;
+                font-family: RoobertLight;
+                float: left;
+            }
+
+
+            .divider_line{
+                margin-top: 31px;
+                margin-left: 2%;
+
+                height: 1px;
+                
+                width: 87%;
+
+                background-color: whitesmoke;
+                float: left;
+            }
+
+            .divider_button{
+                text-align: center;
+                
+                border: 1px solid black;
+                padding: 7px;
+                width: 6%;
+                margin-left: 1.5%;
+                margin-top: 13px;
+
+                font-size: 12pt;
+                font-family: RoobertLight;
+                
+                background-color: white;
+                color:rgb(48, 48, 48);
+
+                float: left;
+            }
+
+            .divider_button:hover{
+                background-color: #d3b04d;
+                color:white;
+            }
+
+.bottom_container{
+    width: 90%;
+    height: 900px;
+    background-color: rgb(9, 11, 44);
+    padding-top: 20px;
+    margin: auto;
+}
+
+    .row{
+        width: 100%;
+        height: 450px;
+     }
+
+    .card{
+        width: 27%;
+        height: 100%;
+        margin-left: 4.5%;
+        float: left;
+    }
+
+        .card_img{
+            width: 100%;
+            height: 35%;
+        }
+
+            .card_img img{
+                width: 100%;
+                height: 100%;
+
+                object-fit: cover;
+            }
+
+            .des_name{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 10px;
+                width: 90%;
+                border-left: 5px solid #d3b04d;
+                color: white;
+
+                font-family: RoobertReg;
+                font-size: 15pt;
+            }
+
+            .des_det{
+                color: white;
+
+                font-family: RoobertLight;
+                font-size: 12pt;
+
+                text-overflow: ellipsis;
+                overflow: hidden; 
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+                padding-bottom: 30px;
+            }
+
+            .card_btn{
+                padding: 5px;
+                border: 3px #c8960c solid;
+                border-radius: 2px;
+                font-family: RoobertLight;
+
+                color: whitesmoke;
+                background-color: #c8960c;
+            }
+
+
+
+
+  
