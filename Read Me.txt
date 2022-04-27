@@ -1,0 +1,27 @@
+This is the Midterm project of our Group
+
+A Mock of our Website: "WEBTOUR:CALABARZON"
+
+For this, our group has chosen to go with 
+a direct HTML/CSS mock-up along with some JS.
+
+The contents of the mock-up are as follows:
+
+> The Homepage
+> The Provinces Page
+> The Destinations Page
+> The Experiences Page
+> The About Us Page
+
+	Also included are 5 Article pages:
+
+	 > Article Page for Cavite Province
+
+	 > Article Page for Kamay ni Hesus Destination
+	 > Article Page for Aguinaldo Shrine Destination
+
+	 > Article Page for Hiking in Cavite Experience
+	 > Article Page for Diving in Batangas Experience
+
+
+Github Page: https://ifallar.github.io/WebTourSite/index.html
