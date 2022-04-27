@@ -2,6 +2,7 @@ const modal = document.querySelector(".modal");
 const previews = document.querySelectorAll(".destinations_image");
 const original = document.querySelector (".full-img");
 const caption = document.querySelector (".caption");
+const read = document.querySelector (".read");
 
 
 previews.forEach((preview) => {
@@ -13,7 +14,8 @@ previews.forEach((preview) => {
             original.src = `pictures/Backgrounds/${originalSrc}`;
             const altText = preview.alt;
             caption.textContent = altText;
-            
+            const read = preview.j;
+            caption.textContent = altText;
         });
 });
 

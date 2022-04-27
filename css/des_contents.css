@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Regular.otf);
+    font-family: RoobertReg;
+  }
+  
+  @font-face {
+    src: url(Fonts/Roobert/Roobert-Light.otf);
+    font-family: RoobertLight;
+  }
+
+#main_body{
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: auto;
+    overflow: hidden;
+    display: block;
+}   
+    
+.overdiv{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+    .article{
+        width: 70%;
+        height: 100%;
+        background-color: whitesmoke;
+        float: left;
+    }
+
+        .article_actual{
+            width: 100%;
+        }
+
+            .article_title{
+                padding-top: 3%;
+                padding-left: 3%;
+                padding-bottom: 3%;
+                
+                font-family: RoobertReg;
+                font-size: 28pt;
+                font-weight: bolder;
+            }
+
+            .article_image{
+                padding-left: 3%;
+                width: 94%;
+                height: 400px;
+
+                object-fit: cover;
+            }
+
+            .article_content{
+                padding: 3%;
+
+                font-family: RoobertLight;
+                font-size: 16pt;
+                font-weight: lighter;
+                text-align: justify;
+            }
+
+        .location{
+            width: 100%;
+            overflow: auto;
+        }
+
+            .location_header{
+                padding-top: 3%;
+                padding-left: 3%;
+                padding-bottom: 3%;
+                
+                font-family: RoobertReg;
+                font-size: 28pt;
+                font-weight: bolder;
+            }
+
+            .location iframe{
+                width: 94%;
+                padding-top: 1%;
+                padding-left: 3%;
+                padding-bottom: 3%;
+            }
+
+    .sidebar{
+        width: 28%;
+        height: 800px;
+        background-color:rgb(9, 11, 44);
+        float: right;
+    }
+
+    .sidebar h3{
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+
+        color: white;
+        
+        font-family: RoobertReg;
+        font-size: 28pt;
+        font-weight: bolder;
+    }
+
+            .destinations_set h3{
+                font-family: RoobertReg;
+                font-size: 22pt;
+                text-align: center;
+                color: aliceblue;
+            }
+            
+                .set_inner{
+                    width: 1400px;
+                    height: 100%;
+                    margin: auto;
+                }
+            
+                .section_column{
+                    margin-right: 1%;
+                    width: 24%;
+                    height: 100%;
+                    float: left;
+                }
+                
+            .sec_3s{
+                width: 90%;
+                height: 25%;
+                margin: auto;
+                margin-top: 5%;
+            
+                background-color: black;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .sec_3s:hover{
+                cursor: pointer;
+            }
+            .destinations_image{
+                width: 100%;
+                height: 100%;
+            
+                opacity: .8;
+                object-fit: cover;
+                position: absolute;
+                transition: transform .5s ease;
+            }
+            
+            .destinations_image:hover{
+                cursor: pointer;
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            
+            .destinations_name{
+                width: 100%;
+            
+                font-size: 18pt;
+                font-family: RoobertReg;
+                color: white;
+            
+                text-align: center;
+                bottom: 20px;
+            
+                position: absolute;
+            }
+
+
