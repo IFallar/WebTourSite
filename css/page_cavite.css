@@ -288,16 +288,18 @@
 
                 font-family: RoobertLight;
                 font-size: 12pt;
+                height: 100%;
 
                 text-overflow: ellipsis;
                 overflow: hidden; 
                 display: -webkit-box;
-                -webkit-line-clamp: 6;
+                -webkit-line-clamp: 5;
                 -webkit-box-orient: vertical;
-                padding-bottom: 30px;
+                margin-bottom: 30px;
             }
 
             .card_btn{
+                
                 padding: 5px;
                 border: 3px #c8960c solid;
                 border-radius: 2px;
