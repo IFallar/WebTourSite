@@ -40,16 +40,13 @@
 }
 .exp-content {
     
+    
+
     font-family: RoobertReg;
     width: 70%;
 
-    margin: 3%;
-    margin-left: 50%;
-    margin-top: 50%;
-    margin-bottom: -50%;
-    padding: 2%;
+    margin: auto;
     background-color: rgb(9, 11, 44);
-    transform: translate(-50%,-50%);
     
     text-align: left;
 }
@@ -167,7 +164,7 @@
     }
 
         .big_box{
-
+            
             width: 96%;
             height: 48.5%;
             margin-bottom: 4%;
